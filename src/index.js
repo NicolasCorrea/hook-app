@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+// import App from './App';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 import reportWebVitals from './reportWebVitals';
+// import "./components/08-useReducer/intro-reducer"
 
 ReactDOM.render(
-  <App />,
+  <MainApp />,
   document.getElementById('root')
 );
 
