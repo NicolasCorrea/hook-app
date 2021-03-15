@@ -16,14 +16,14 @@ export const FocusScreen = () => {
       <input
         ref={inputRef}
         type="text"
-        class="form-control"
+        className="form-control"
         name="name"
         id="name"
         placeholder="Your Name"
       />
 
       <button
-        class="btn btn-primary mt-3"
+        className="btn btn-primary mt-3"
         onClick={handleClick}
       >
         Focus
