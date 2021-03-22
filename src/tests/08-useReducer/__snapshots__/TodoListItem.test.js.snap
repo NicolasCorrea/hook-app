@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoListItem /> should render 1`] = `
+<li
+  className="list-group-item "
+>
+  <p
+    className=""
+    onClick={[Function]}
+  >
+    2
+    . 
+    Aprender react
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</li>
+`;
